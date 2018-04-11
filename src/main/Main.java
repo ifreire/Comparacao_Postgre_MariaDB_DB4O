@@ -12,13 +12,13 @@ public class Main
         System.out.println("DB4O:");
         execDB4O(50000);
         
-        System.out.println("");
-        System.out.println("PostgreSQL:");
-        execPostgre(10000);
+        //System.out.println("");
+        //System.out.println("PostgreSQL:");
+        //execPostgre(10000);
         
-        System.out.println("");
-        System.out.println("MariaDB:");
-        execMariaDB(10000);
+        //System.out.println("");
+        //System.out.println("MariaDB:");
+        //execMariaDB(10000);
     }
     
     private static void execDB4O(int qt)
