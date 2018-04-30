@@ -1,8 +1,8 @@
 package main;
 
 import executors.Db4oExecutor;
-import executors.MariaDBExecutor;
-import executors.PostgreExecutor;
+//import executors.MariaDBExecutor;
+//import executors.PostgreExecutor;
 
 public class Main
 {
@@ -26,13 +26,13 @@ public class Main
         Db4oExecutor.execDB4O(qt);
     }
     
-    private static void execPostgre(int qt)
-    {
-        PostgreExecutor.execPostgre(qt);
-    }
-    
-    private static void execMariaDB(int qt)
-    {
-    	MariaDBExecutor.execMariaDB(qt);
-    }
+//    private static void execPostgre(int qt)
+//    {
+//        PostgreExecutor.execPostgre(qt);
+//    }
+//    
+//    private static void execMariaDB(int qt)
+//    {
+//    	MariaDBExecutor.execMariaDB(qt);
+//    }
 }
