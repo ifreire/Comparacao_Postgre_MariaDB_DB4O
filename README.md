@@ -1,1 +1,1 @@
-# Comparação Postgre MariaDB DB4O
+# Comparative between Postgre, MariaDB and DB4O
